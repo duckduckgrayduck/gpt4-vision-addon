@@ -75,6 +75,7 @@ class Vision(AddOn):
 
     def main(self):
         """The main add-on functionality goes here."""
+        self.client.session.headers.update({'User-Agent': 'GPT 4 Vision Add-On'})
         if not self.validate():
             self.set_message("You do not have sufficient AI credits to run this Add-On on this document set")
             sys.exit(0)
