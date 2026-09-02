@@ -1,5 +1,8 @@
 title: 'GPT-4 Vision Add-On'
-description: 'Analyze tables and forms in your documents using GPT-4 Vision.'
+description: |
+  Analyze tables and forms in your documents using GPT-4 Vision.
+  This Add-On uses AI. It only runs when you tell it to. It can run on any public document 
+  or any private document that you have access to. It cannot access documents you don't have access to. 
 instructions: ''
 type: object
 documents:
